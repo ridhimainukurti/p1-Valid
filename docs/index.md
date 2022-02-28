@@ -1,18 +1,33 @@
-## Welcome to GitHub Pages
+## Welcome to P1-Valid 
 
 TutorVue is a tutoring site where students from Del Norte can seek help amd guidance from upperclassmen in any class subject! Vue the new you!
- [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+
+### Layout
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# PBL Theme
+- List
+## Sassy Bootstrap illustration 
+Primary color is Blue while the secondary color is green 
+- [Wireframes](https://github.com/ridhimainukurti/p1-Valid/wiki/Wire-Frames)
+- [Commits]()
+### Database CRUD Operations
+- []()
+#### Deployed Project (Overview + Policies) 
+- [Deployment Policies and Overview](https://github.com/ridhimainukurti/p1-Valid/wiki/Deployment-Guide) 
+##### Async Operations 
+
+| Name | Github Profile | Role |
+|  --- |  ---           | --- |
+| Natasha | [@mistylavender](https://github.com/mistylavender) | Scrum Master | 
+| Ridhima | [@ridhimainukurti](https://github.com/ridhimainukurti)  | Github Admin |
+| Risa | [@risaiwazaki](https://github.com/risaiwazaki) | Deployment Manager |
+| Ava | [@avabrooks](https://github.com/avabrooks)  | Design Manager | 
+| Sarah | [@sarahwxie](https://github.com/sarahwxie)  | Technical Officer|
 
 - Bulleted
 - List
