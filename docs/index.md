@@ -4,7 +4,7 @@ TutorVue is a tutoring site where students from Del Norte can seek help amd guid
 ### Layout
 
 #### Database for Scheduling 
-![](https://github.com/ridhimainukurti/p1-Valid/blob/master/src/main/resources/static/images/scheduledatabase.png)
+![Database](https://github.com/ridhimainukurti/p1-Valid/blob/master/src/main/resources/static/images/scheduleDatabase.png)
 
 #### Layout 
 ![Code](https://github.com/ridhimainukurti/p1-Valid/blob/master/src/main/resources/static/images/layout.png)
