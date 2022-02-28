@@ -2,33 +2,19 @@
 TutorVue is a tutoring site where students from Del Norte can seek help amd guidance from upperclassmen in any class subject! Vue the new you!
 ### Layout
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-```markdown
-# PBL Theme
-- List
-## Sassy Bootstrap illustration
-Primary color is Blue while the secondary color is green
-- [Wireframes](https://github.com/ridhimainukurti/p1-Valid/wiki/Wire-Frames)
-- [Commits]()
-### Database CRUD Operations
-- []()
-#### Deployed Project (Overview + Policies)
-- [Deployment Policies and Overview](https://github.com/ridhimainukurti/p1-Valid/wiki/Deployment-Guide)
-##### Async Operations
-- Bulleted
-- List
-1. Numbered
-2. List
-**Bold** and _Italic_ and `Code` text
-[Link](url) and ![Image](src)
-```
-| Name | Github Profile | Role |
-|  --- |  ---           | --- |
-| Natasha | [@mistylavender](https://github.com/mistylavender) | Scrum Master |
-| Ridhima | [@ridhimainukurti](https://github.com/ridhimainukurti)  | Github Admin |
-| Risa | [@risaiwazaki](https://github.com/risaiwazaki) | Deployment Manager |
-| Ava | [@avabrooks](https://github.com/avabrooks)  | Design Manager |
-| Sarah | [@sarahwxie](https://github.com/sarahwxie)  | Technical Officer|
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+
+| Name | Links| 
+|  --- |  ---     | 
+| PBL Theme | [Theme](https://github.com/ridhimainukurti/p1-Valid/tree/master/src/main/resources/templates) |
+| Sassy Bootstrap illustration | [Wireframes](https://github.com/ridhimainukurti/p1-Valid/wiki/Wire-Frames)  [Commits](https://github.com/ridhimainukurti/p1-Valid/commit/cf9c4d18c36e3d9150dee519162a530b07c46b4c)  | 
+| Database CRUD Operations | [Database Code](https://github.com/ridhimainukurti/p1-Valid/tree/master/src/main/java/com/nighthawk/csa/data)  [Database Commits](https://github.com/ridhimainukurti/p1-Valid/commits/master) |
+| Deployed Project (Overview + Policies) |[Deployment Policies and Overview](https://github.com/ridhimainukurti/p1-Valid/wiki/Deployment-Guide) |
+| Async Operations | [Search code](https://github.com/ridhimainukurti/p1-Valid/blob/master/src/main/resources/templates/fragments/nav.html) | 
+
+### Team Video 
+[Team Video](https://youtu.be/StPEVMlGE7c)
+
 ### Jekyll Themes
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ridhimainukurti/p1-Valid/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 ### Support or Contact
