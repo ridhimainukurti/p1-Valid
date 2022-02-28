@@ -21,13 +21,7 @@ Primary color is Blue while the secondary color is green
 - [Deployment Policies and Overview](https://github.com/ridhimainukurti/p1-Valid/wiki/Deployment-Guide) 
 ##### Async Operations 
 
-| Name | Github Profile | Role |
-|  --- |  ---           | --- |
-| Natasha | [@mistylavender](https://github.com/mistylavender) | Scrum Master | 
-| Ridhima | [@ridhimainukurti](https://github.com/ridhimainukurti)  | Github Admin |
-| Risa | [@risaiwazaki](https://github.com/risaiwazaki) | Deployment Manager |
-| Ava | [@avabrooks](https://github.com/avabrooks)  | Design Manager | 
-| Sarah | [@sarahwxie](https://github.com/sarahwxie)  | Technical Officer|
+
 
 - Bulleted
 - List
@@ -39,6 +33,14 @@ Primary color is Blue while the secondary color is green
 
 [Link](url) and ![Image](src)
 ```
+
+| Name | Github Profile | Role |
+|  --- |  ---           | --- |
+| Natasha | [@mistylavender](https://github.com/mistylavender) | Scrum Master | 
+| Ridhima | [@ridhimainukurti](https://github.com/ridhimainukurti)  | Github Admin |
+| Risa | [@risaiwazaki](https://github.com/risaiwazaki) | Deployment Manager |
+| Ava | [@avabrooks](https://github.com/avabrooks)  | Design Manager | 
+| Sarah | [@sarahwxie](https://github.com/sarahwxie)  | Technical Officer|
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
