@@ -1,6 +1,8 @@
 package com.nighthawk.csa;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.nighthawk.csa.data.SQL.Schedule;
+import com.nighthawk.csa.data.SQL.User;
 import com.nighthawk.csa.tutoring.Tutor;
 import org.hibernate.loader.collection.BasicCollectionJoinWalker;
 import org.json.simple.JSONArray;
@@ -22,6 +24,8 @@ import java.net.http.HttpResponse;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+
 import com.nighthawk.csa.data.sarahfrq.frq2.sarahLightSequence;
 import com.nighthawk.csa.data.sarahfrq.frq10.gcf;
 import javax.validation.Valid;
@@ -374,10 +378,6 @@ public class MainController {
     public String testprep() {
         return "/services/testprep";
     }
-
-
-
-
 
     @GetMapping("/scheduleconfirm")
     public String scheduleconfirm(){

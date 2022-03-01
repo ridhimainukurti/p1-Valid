@@ -15,6 +15,10 @@
         grid-template-columns: 1fr 3fr;
     }
 
+    p {
+        text-align: left;
+    }
+
 
     </style>
 </div>
@@ -26,15 +30,24 @@
         <div class="heroHead">
             <img src="/images/profile.jpg" style="width:100%; border-radius:10px;">
             <div class="profile">
-                <div>
-                    <div>
-                        <h3 style="display:inline-block;"th:text="${user.name}"><strong></strong></h3>
-                    </div>
+                <div style="text-align:left; padding:20px; padding-left: 50px;">
+                    <h2 style="display:inline-block;"th:text="${user.name}"><strong></strong></h2>
+                    <h4 th:text="${user.userType}"></h4>
                     <p>Username: <span th:text="${user.username}"></span></p>
+                    <p th:text="${user.bio}"></p>
+
                 </div>
             </div>
-            <br>
-            <h2>Your Schedule: </h2>
+
+
+        </div>
+        <div style="margin-top:100px;">
+            <h2 >These people need tutors: </h2>
+            <div th:each="schedule : ${list}" style="text-align:left; padding:20px; padding-left: 50px; margin:20px; width:100%; background-color:#c6e2ff;">
+                <h4> #<span th:text="${schedule.id}"></span>: <span th:text="${schedule.name}"></span> </h4>
+                <p> "<span th:text="${schedule.help}"> </span>"</p>
+                <p>Email them here: <span th:text="${schedule.email}" ></span>. </p>
+            </div>
         </div>
 
     </div>

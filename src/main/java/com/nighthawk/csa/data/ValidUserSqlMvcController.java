@@ -1,7 +1,9 @@
 package com.nighthawk.csa.data;
 
+import com.nighthawk.csa.data.SQL.Schedule;
 import com.nighthawk.csa.data.SQL.User;
 import com.nighthawk.csa.data.SQL.UserSqlRepository;
+import com.nighthawk.csa.data.SQL.ScheduleSqlRepository;
 import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -30,6 +32,9 @@ public class ValidUserSqlMvcController implements WebMvcConfigurer {
     @Autowired
     private UserSqlRepository repository;
 
+    @Autowired
+    private ScheduleSqlRepository scheduleRepository;
+
     @GetMapping("/userlist")
     public String user(Model model) {
         List<User> list = repository.listAll();
@@ -55,12 +60,22 @@ public class ValidUserSqlMvcController implements WebMvcConfigurer {
     // Read
     @GetMapping("/profile/process")
     public String processProfile(@RequestParam(name = "username", required = false, defaultValue = "default") String username, Model model) {
-        List list = repository.listLike(username);
-        User user = (User) list.get(1);
+
+
+        try {
+            List list = repository.listLike(username);
+            User user = (User) list.get(0);
+            return "redirect:/profile/" + user.id();
+        }
+        catch(Exception e) {
+            List list = repository.listLike("defaultUser");
+            User user = (User) list.get(0);
+            return "redirect:/profile/" + user.id();
+        }
         // model.addAttribute("user", user);
 
         // DEBUGGING BY SARAH
-        return "redirect:/profile/" + user.id();
+
     }
 
 
@@ -220,6 +235,9 @@ public class ValidUserSqlMvcController implements WebMvcConfigurer {
     public String profile(@PathVariable long id, Model model) {
         User user = repository.get(id);
         model.addAttribute("user", user);
+
+        List<Schedule> scheduleList = scheduleRepository.listAll();
+        model.addAttribute("list", scheduleList);
         return "user/profileUser";
     }
 
